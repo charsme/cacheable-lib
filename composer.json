@@ -1,0 +1,21 @@
+{
+    "name": "chars/cacheable-lib",
+    "description": "Cacheable Trait and interface for resilient",
+    "type": "library",
+    "require": {
+        "psr/cache": "^1.0",
+        "psr/simple-cache": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Resilient\\Design\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Charis",
+            "email": "me@chars.me"
+        }
+    ]
+}
